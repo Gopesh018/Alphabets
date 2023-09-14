@@ -1,0 +1,55 @@
+.contact-container{
+    width: 100%;
+    height: 90vh;
+}
+
+.contact-container .intro-box{
+    width: 70%;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 5vw;
+    border-radius: 0px 100px 100px 0px;
+    box-shadow: 0px 0px 10px orange;
+    border-left: none;
+} 
+
+.contact-container .intro-box h1{
+    margin-bottom: 3vh;
+    font-size: 2.5rem;
+    position: relative;
+}
+
+
+.contact-container .intro-box h5{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1vh;
+}
+
+.contact-container .intro-box h5 span{
+    font-weight: 700;
+}
+
+
+.contact-container .query-box{
+    width: 70%;
+    float: right;
+    margin-top: 5vh;
+    padding: 5vh 5vw;
+    border-radius: 150px 0px 0px 150px;
+    box-shadow: 0px 0px 10px orange;
+    border-right: none;
+}
+
+.contact-container .query-box h2{
+    margin-bottom: 1vh;
+    font-size: 1.8rem;
+}
+
+.contact-container .query-box h5{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 2vh;
+}
+
